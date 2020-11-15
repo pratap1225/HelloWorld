@@ -18,5 +18,4 @@ steps:
 - script: |
     sudo npm install -g aws-cdk
     npm install
-    npm audit fix
   displayName: 'npm install and build'
